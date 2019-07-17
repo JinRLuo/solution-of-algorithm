@@ -18,8 +18,8 @@ int main(){
 		else if(f[i]<0)
 			q+=abs(f[i]);
 	}
-	ll ans1 = max(p,q);
-	ll ans2 = abs(p-q)+1;
+	ll ans1 = max(p,q);   //最小操作数等于max(正数个数，负数个数) 
+	ll ans2 = abs(p-q)+1; //可能结果数等于abs(正数个数-负数个数)+1 
 	cout << ans1 << endl;
 	cout << ans2 << endl;
 	
