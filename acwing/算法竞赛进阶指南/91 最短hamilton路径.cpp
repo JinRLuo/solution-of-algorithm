@@ -6,7 +6,7 @@ int a[25][25];
 int dp[1<<20][25];
 
 int main(){
-	memset(dp,1eof(dp));
+	memset(dp,1,sizeof(dp));
 	int i,j,k,n;
 	cin >> n;
 	for(i=0;i<n;i++){
